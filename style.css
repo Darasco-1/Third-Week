@@ -1,0 +1,15 @@
+p.a{
+    /* hide an element */
+    display: none;
+}
+
+p.b{
+    /* this makes the elemnt take as much width as it requires. Anything after that should be displayed inline with the element */
+    display:inline;
+}
+/* lets emenet take up the full width of the container. It pushes any other element after it to the next line. */
+img.c{
+    display:block;
+    width:500px;
+    height:600px;
+}
