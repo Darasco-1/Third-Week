@@ -13,3 +13,20 @@ img.c{
     width:500px;
     height:600px;
 }
+
+.container{
+    display: flex;
+    justify-content: space-between; /* distribute the space items evenly */
+    align-items: center; /*aligns itmes vetically in the center*/
+    background-color: lightgrey;
+    height: 300px;
+    opacity: 0.3;
+}
+
+.box{
+    flex: 1; /* makes all boxes take up the same space */
+    margin: 0 10px; /* add horizontal space between the boxes */
+    padding: 20px; /* adds space inside each box */
+    background-color: AQUA;
+    TEXT-ALIGN: center;
+}
