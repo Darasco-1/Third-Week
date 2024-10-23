@@ -1,0 +1,31 @@
+.grid-container{
+    display: grid;
+    grid-template-columns: 1fr 1fr 1fr 1fr; /* Creates 3 equal columns */
+    grid-template-rows: auto; /* automaticalyy adjust based on the content */
+    grid-gap: 10px; /*space between grid items */
+}
+
+.grid-container div{
+    /* acess the class and the grid element */
+    background-color: blue;
+    padding: 20px;
+    text-align: center;
+    color: white;
+}
+
+/* If you want to have 2 column per row */
+.grid-container-1{
+    display: grid;
+    grid-template-columns: 1fr 1fr; /* 2 equal column */
+    grid-template-rows: auto auto;  /* 2 equal row */
+    grid-gap: 20px;
+}
+.grid-container-1 div{
+    background-color: brown;
+    padding: 20px;
+    text-align: center;
+    color: white;
+    margin: 30px;
+    border: 1px solid red;
+    border-radius: 30px;
+}
