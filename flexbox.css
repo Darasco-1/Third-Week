@@ -1,0 +1,50 @@
+*{
+    margin:0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body{
+    font-family: 'Segeo UI','Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+}
+
+header{
+    background-color: red;
+    color: white;
+    text-align: center;
+    padding: 20px;
+}
+
+.content{
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-around;
+    padding: 20px;
+}
+
+.box{
+    background-color: lightblue;
+    color: black;
+    padding: 40px;
+    margin: 10px;
+    flex: 1 1 30%;
+}
+
+/* Responsiveness */
+@media (min-width: 768px) {
+    .box{
+        flex: 1 1 30%;
+    }
+}
+
+@media (max-width: 768px) {
+    .box{
+        flex : 1 1 45%
+    }
+}
+
+@media (max-width: 480px) {
+    .box{
+        flex: 1 1 100%;
+    }
+}
