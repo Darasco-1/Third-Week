@@ -47,6 +47,33 @@ img:hover{
     opacity:0.3;
 }
 
-div{
-    background-color:  rgba(76,185,67,0.3);
+.randombox{
+    background-color:  rgba(76,185,67,0.2);
+    height: 100px;
+    display: block;
+    width: 300px;
+    text-align: center;
+    padding: 30px;
+}
+
+.gradient{
+    /* background-image: linear-gradient(direction or angle, color-stop1, color-stop2); */
+    background-image: linear-gradient(to bottom right,green,violet, rgb(253, 255, 0)) ;
+    display: block;
+    height: 250px;
+    width: 500px;
+    text-align: center;
+    padding: 30px;
+    margin: 20px 0 20px 0;
+}
+
+.gradient1{
+    /* background-image: linear-gradient(direction or angle, color-stop1, color-stop2); */
+    background-image: radial-gradient(green,violet, rgb(253, 255, 0)) ;
+    display: block;
+    height: 250px;
+    width: 500px;
+    text-align: center;
+    padding: 30px;
+    margin: 20px 0 20px 0;
 }
